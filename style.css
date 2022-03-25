@@ -1,0 +1,75 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 14;
+      
+
+}
+
+body{
+    background-color: rgb(220, 220, 220);
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+}
+
+.lista div{
+    display: inline-block;
+    margin:20px
+}
+
+
+input{
+    padding:10px;
+    margin: 10px;
+}
+main{
+    display:flex;
+    align-items:center;
+    justify-content:space-between ;
+    width: 1200px;
+    padding-left: 15px;
+
+}
+.pesquisa{
+    margin-bottom: 50px;
+    border-radius: 20px ;
+    width: 600px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    }
+    
+.logo{
+    width: 350px;
+}
+
+.logos{
+    width:300px;
+}
+
+.motor{
+    width: 400px;
+}
+header{
+    margin: 0 auto;
+}
+.caixaAlta{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding:30px;
+      
+}
+h1{
+    color: gold;
+    font-size: 70px;
+}
+nav{
+    background-image: url("imgs/background.jpg");
+	background-size: 1200px;
+	
+}
