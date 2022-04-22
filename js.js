@@ -3,6 +3,7 @@
 
 		a = document.getElementById(a);
 		b = document.getElementById(b);
+		let texto = 'Nenhum Resultado'
 
 		len = b.children.length;
 
@@ -21,7 +22,7 @@
 				if( s != null )
 					b.children[i].removeAttribute('style','comum');
 				else
-					b.children[i].style.display='none';
+					b.children[i].style.display= texto;
 			}
 		}
 	}

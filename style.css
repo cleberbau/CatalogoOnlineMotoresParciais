@@ -109,10 +109,25 @@ nav{
     .motor{
         width:250px ;
     }
+    .lista{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       
+      
+    }
+}
+.botao {
+    transition: 1s !important;
 }
 
 .botao:hover {
     background-color: rgb(255, 255, 255)  !important;
     color: blue !important;
     
+}
+
+#aviso{
+    font-size: 30PX;
+    color: yellow;
 }

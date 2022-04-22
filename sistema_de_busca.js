@@ -1,3 +1,5 @@
+let aviso = "'NENHUM RESULTADO ENCONTRADO'"
+
 for(i of document.querySelectorAll('[search]')){
     try{
         busca(i,document.querySelector("#"+i.getAttribute('search')))
@@ -9,9 +11,10 @@ function busca(input_field,div){
         for(di of div.children){
             r  = new RegExp(this.value,"g")
             if(di.getAttribute("nome").toLowerCase().match(r) != null)
-                di.style.removeProperty('display')
+            di.style.removeProperty('display')
             else
-                di.style.display = "none"
+            di.style.display = "none"
+           
         }
     }
 }
