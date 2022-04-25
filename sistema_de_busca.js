@@ -13,8 +13,8 @@ function busca(input_field,div){
             if(di.getAttribute("nome").toLowerCase().match(r) != null)
             di.style.removeProperty('display')
             else
-            di.style.display = "none"
-           
+            (di.style.display = "none")
+                        
         }
     }
 }
